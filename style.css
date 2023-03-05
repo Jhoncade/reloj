@@ -1,0 +1,8 @@
+main{
+    display: flex;
+}
+#mostrar{
+    height: 25px;
+    width: 40px;
+    border: solid 1px black;
+}
