@@ -1,7 +1,5 @@
 
 
-    
-
     function cuentaregresiva(cuenta){
     if(cuenta==0){
         document.getElementById("mostrar").innerText=("finish")
@@ -13,4 +11,10 @@
         return setTimeout(cuentaregresiva,1000,(cuenta-1))
     }
     }
-    cuentaregresiva=document.getElementById("parametro").value
+    
+    function capturar(){
+    valor=document.getElementById("parametro").value
+    cuentaregresiva(valor)
+    }
+    
+    
